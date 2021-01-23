@@ -32,16 +32,6 @@ namespace Cabeleleila_Leila
                 Pessoas.RemoveAt(index);
         }
 
-        public void Listar()
-        {
-            foreach(Pessoa pessoa in Pessoas)
-            {
-                Console.WriteLine(pessoa.Nome);
-                Console.WriteLine(pessoa.Telefone);
-                Console.WriteLine(pessoa.Email);
-
-
-            }
-        }
+        
     }
 }
