@@ -8,5 +8,7 @@ namespace Cabeleleila_Leila
     {
         public DateTime HorarioInicio { get; set; }
         public DateTime HorarioTermino { get; set; }
+        public Cliente Cliente { get; set; }
+        public Profissional Profissional { get; set; }
     }
 }
